@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- font awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="report-for">
+      <div class="name">
+        <div>
+          <div class="image"></div>
+        </div>
+        <div class="rly-name">
+          <div class="report-p">Report for</div>
+          <div class="report-n">Jeremy Robson</div>
+        </div>
+      </div>
+      <div class="dwm">
+        <div class="daily dwm-item ">Daily</div>
+        <div class="weekly selected dwm-item ">Weekly</div>
+        <div class="monthly dwm-item ">Monthly</div>
+      </div>
+    </div>
+
+    <div class="six">
+      <div class="work grid">
+        <div class="bottom-work allbottom">
+          <div class="task">
+            <div class="task-name">Work</div>
+            <div class="dots">
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+          </div>
+          <div class="time">
+            <div class="time-name"><span id="current-time">32</span>hrs</div>
+            <div class="time-info">Last Week - <span id="previous-time">36</span>hrs</div>
+          </div>
+        </div>
+      </div>
+      <div class="play grid">
+        <div class="bottom-play allbottom">
+          <div class="task">
+            <div class="task-name">Play</div>
+            <div class="dots">
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+          </div>
+          <div class="time">
+            <div class="time-name"><span id="current-time">10</span>hrs</div>
+            <div class="time-info">Last Week - <span id="previous-time">8</span>hrs</div>
+          </div>
+        </div>
+      </div>
+      <div class="study grid">
+        <div class="bottom-study allbottom">
+          <div class="task">
+            <div class="task-name">Study</div>
+            <div class="dots">
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+          </div>
+          <div class="time">
+            <div class="time-name"><span id="current-time">4</span>hrs</div>
+            <div class="time-info">Last Week - <span id="previous-time">7</span>hrs</div>
+          </div>
+        </div>
+      </div>
+      <div class="exercise grid">
+        <div class="bottom-exercise allbottom">
+          <div class="task">
+            <div class="task-name">Exercise</div>
+            <div class="dots">
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+          </div>
+          <div class="time">
+            <div class="time-name"><span id="current-time">4</span>hrs</div>
+            <div class="time-info">Last Week - <span id="previous-time">5</span>hrs</div>
+          </div>
+        </div>
+      </div>
+      <div class="social grid">
+        <div class="bottom-social allbottom">
+          <div class="task">
+            <div class="task-name">Social</div>
+            <div class="dots">
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+          </div>
+          <div class="time">
+            <div class="time-name"><span id="current-time">5</span>hrs</div>
+            <div class="time-info">Last Week - <span id="previous-time">10</span>hrs</div>
+          </div>
+        </div>
+      </div>
+      <div class="selfcare grid">
+        <div class="bottom-selfcare allbottom">
+          <div class="task">
+            <div class="task-name">Self Care</div>
+            <div class="dots">
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+          </div>
+          <div class="time">
+            <div class="time-name"><span id="current-time">2</span>hrs</div>
+            <div class="time-info">Last Week - <span id="previous-time">2</span>hrs</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/src/app.js"></script>
+</body>
+
+</html>
